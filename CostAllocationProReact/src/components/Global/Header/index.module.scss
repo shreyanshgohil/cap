@@ -1,0 +1,66 @@
+@import '../../../scss/mixin.scss';
+
+.header {
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+	&__wrapper {
+		padding: 14px 20px;
+	}
+	&__details-left {
+		&--logo {
+			width: 22.4rem;
+		}
+	}
+	&__details-right {
+		display: flex;
+		align-items: center;
+		&--organization {
+			width: 27.9rem;
+			margin-right: 5.2rem;
+			@include mq('mid-desktop') {
+				margin-right: 2.8rem;
+			}
+		}
+		&--settings {
+			margin-right: 2.6rem;
+			width: 5rem;
+			&:hover {
+				cursor: pointer;
+			}
+			@include mq('mid-desktop') {
+				margin-right: 1.2rem;
+			}
+		}
+		&--user {
+			display: flex;
+			align-items: center;
+			margin-right: 5.2rem;
+			@include mq('mid-desktop') {
+				margin-right: 2.8rem;
+			}
+			&-logo {
+				margin-right: 0.5rem;
+				width: 46px;
+			}
+			&-details {
+				padding-left: 0.7rem;
+			}
+			&-name {
+				font-weight: 600;
+				font-size: 1.6rem;
+				margin-bottom: 0.6rem;
+			}
+			&-profile {
+				font-size: 1.2rem;
+				&:hover {
+					cursor: pointer;
+				}
+			}
+			&-logout {
+				width: 4.2rem;
+				:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+.permission-details-drawer .ant-table-thead tr th {
+	background-color: #fff !important;
+}
+
+.permission-details-drawer {
+	height: calc(100vh - 55px);
+	overflow-y: auto;
+}
+
+.permission-details-drawer .ant-checkbox-inner {
+	// height: 2.465rem;
+	// width: 2.398rem;
+	background-color: transparent;
+	border-color: #d4d7dc;
+}
+
+.parent-module {
+	font-weight: 700;
+	color: #263238;
+}
+
+.child-module {
+	font-weight: 500;
+	color: #263238;
+}
+
+.table-weight-700 {
+	span {
+		font-weight: 700 !important;
+	}
+}
+
+.module-name {
+	display: flex !important;
+	gap: 1rem;
+}

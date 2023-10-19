@@ -1,0 +1,30 @@
+.main-container {
+	// display: flex;
+	// flex-direction: column;
+
+	&__title {
+		font-weight: 600;
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
+}
+
+.image-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	&__image {
+		width: 34.8rem !important;
+		margin-top: 12rem;
+	}
+
+	&__button {
+		background-color: #286fd1;
+		border-radius: 0.8rem;
+		font-size: 1.6rem;
+		font-weight: 600;
+		padding: 1rem 2rem;
+		height: auto;
+	}
+}

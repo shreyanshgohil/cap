@@ -1,0 +1,21 @@
+.user-name-box {
+	height: 4.6rem;
+	width: 4.6rem;
+	background: #e6f2ff;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&__profile-image {
+		height: 100%;
+		width: 100%;
+		border-radius: 50%;
+		object-fit: cover;
+		object-position: top;
+	}
+	&__name {
+		font-size: 18px;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+}

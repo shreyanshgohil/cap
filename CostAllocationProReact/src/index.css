@@ -1,0 +1,312 @@
+*,
+::after,
+::before {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Lexend', sans-serif !important;
+}
+
+html {
+	font-size: 10px;
+}
+
+body:has(.stop-scroll-x) {
+	overflow: hidden;
+}
+
+body {
+	font-family: 'Lexend', sans-serif;
+}
+
+/* Removed scrollbar temporary */
+::-webkit-scrollbar {
+	width: 0px !important;
+	display: none !important;
+}
+
+/* Global css */
+.btn-black {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #000;
+	font-size: 1.6rem;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 1000px !important;
+	gap: 8px;
+	padding: 1.3rem 2.8rem;
+	border: none;
+	cursor: pointer;
+}
+
+.error-message {
+	color: #ff4d4f;
+	font-size: 14px;
+	/* font-weight: 500; */
+}
+
+.ant-table-column-title {
+	flex: 0 0 auto !important;
+}
+
+.ant-table-column-sorters {
+	justify-content: flex-start !important;
+	gap: 10px;
+}
+
+.btn-black:hover {
+	color: #fff !important;
+}
+
+.ant-modal-content {
+	padding-top: 40px !important;
+	padding-bottom: 40px !important;
+}
+
+.ant-input-affix-wrapper {
+	border: 1px solid #d9d9d9 !important;
+	box-shadow: none !important;
+}
+.ant-input-affix-wrapper:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.ant-switch-checked {
+	background: #009049 !important;
+}
+
+.table-global thead tr th {
+	font-weight: 600 !important;
+	font-size: 1.6rem;
+}
+.table-global tbody tr {
+	font-size: 1.6rem;
+}
+
+.ant-table-cell .ant-checkbox-checked .ant-checkbox-inner {
+	background-color: #009049;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner {
+	border-color: #d4d7dc !important;
+}
+
+.ant-checkbox-checked,
+.ant-checkbox-checked::after {
+	border: none !important;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-checked .ant-checkbox-inner {
+	background-color: #009049 !important;
+	border-color: #d4d7dc !important;
+	outline: none !important;
+}
+.ant-switch-handle::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+	height: 100%;
+	width: 100%;
+	background-image: url('/public/assets/images/false.png');
+	background-repeat: no-repeat;
+	background-size: 11px;
+	background-position: center center;
+}
+
+.ant-switch-checked .ant-switch-handle::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #009049;
+	height: 100%;
+	width: 100%;
+	font-weight: bold;
+	background-image: url('/public/assets/images/true.png');
+	background-repeat: no-repeat;
+	background-size: 11px 9px;
+	background-position: center center;
+}
+
+.required-color {
+	color: red;
+}
+
+.ant-upload-select:hover button {
+	color: #999999 !important;
+	border-color: #999999 !important; /* Optional: Change the border color on hover if needed */
+	background-color: transparent !important; /* Optional: Change the background color on hover if needed */
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+/* End global */
+@media (max-width: 1600px) {
+	html {
+		font-size: 9px;
+	}
+}
+
+@font-face {
+	font-family: 'Lexend';
+	src: url('/public/assets/fonts/Lexend-Regular.woff') format('woff');
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lexend';
+	src: url('/public/assets/fonts/Lexend-Medium.woff') format('woff');
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lexend';
+	src: url('/public/assets/fonts/Lexend-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lexend';
+	src: url('/public/assets/fonts/Lexend-Bold.woff') format('woff');
+	font-weight: 700;
+	font-display: swap;
+}
+
+/* Reusable class */
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.flex {
+	display: flex;
+}
+.align-center {
+	align-items: center;
+}
+.justify-center {
+	justify-content: center;
+}
+
+.bg-white {
+	background-color: #fff !important;
+}
+.bg-white:hover {
+	background-color: #fff !important;
+}
+
+.bg-split {
+	background-color: #e4e4e4 !important;
+}
+
+.ant-table-cell::before,
+.ant-table-cell::after {
+	display: none;
+}
+
+.toast-container-div {
+	width: 25px !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.toast-container-custom svg {
+	min-width: min-content !important;
+	width: 100% !important;
+}
+
+.pointer-event-none {
+	pointer-events: none !important;
+}
+
+.ant-select-item-option-selected {
+	background-color: #efefef !important;
+}
+
+.ant-tooltip-inner {
+	font-size: 11px !important;
+	min-height: auto !important;
+	padding: 1rem !important;
+	display: inline-block !important;
+	background-color: #333333 !important;
+	border-radius: 6px !important;
+}
+
+.ant-input-number-handler-wrap {
+	display: none !important;
+}
+
+.main-table-header-color {
+	background-color: #485949;
+}
+
+.ant-input-number,
+.ant-input-number:hover,
+.ant-input-number:focus {
+	border: 1px solid #d2d4d8 !important;
+	box-shadow: none !important;
+}
+
+.required-field {
+	color: red;
+	font-size: 14px;
+	font-weight: 500;
+	display: inline-block;
+}
+
+.ant-picker-now {
+	display: none !important;
+}
+
+.ant-picker-ok button {
+	background: #000 !important;
+}
+.ant-picker-ok button span {
+	color: #fff !important;
+}
+
+.ant-picker-large:not(.ant-picker-status-error) {
+	border: 1px solid #d2d4d8 !important;
+	box-shadow: none !important;
+}
+
+.sync-loader-gif {
+	max-height: 2.4rem;
+}
+
+.ant-picker:hover,
+.ant-picker:focus,
+.ant-picker-focused {
+	outline: none !important;
+	border-color: #d9d9d9;
+	box-shadow: none !important;
+}
+
+.tick-small {
+	enable-background: new 0 0 17 18;
+}
+
+.bg-f6f6f6 {
+	background: #f6f6f6 !important;
+}

@@ -1,0 +1,12 @@
+.export-data {
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		&-svg {
+			margin-right: 0rem;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+}

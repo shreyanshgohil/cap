@@ -1,0 +1,13 @@
+.settings-layout {
+	height: 100%;
+	&__wrapper {
+		display: flex;
+		height: 100%;
+	}
+	&__body {
+		position: relative;
+		width: 100%;
+		background: #f8f1e9;
+		padding: 2.1rem 3rem 2.1rem 3rem;
+	}
+}

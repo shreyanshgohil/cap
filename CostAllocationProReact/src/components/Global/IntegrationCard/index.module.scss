@@ -1,0 +1,49 @@
+.integration {
+	&__card {
+		border-radius: 1.2rem !important;
+		margin-bottom: 15px;
+		width: 43rem;
+		height: 25rem;
+		&__image {
+			border-bottom: 1px solid #d4d7dc;
+			padding: 2.4rem;
+		}
+		img {
+			width: 22.804rem !important;
+		}
+		&__details {
+			padding: 2.4rem;
+		}
+		&__company {
+			font-weight: 700;
+			font-size: 1.6rem;
+			margin-bottom: 1.6rem;
+		}
+		&__connect {
+			font-weight: 500;
+			font-size: 1.4rem;
+			color: #777777;
+			line-height: 1.75rem;
+			margin-bottom: 1.6rem;
+		}
+
+		&__button {
+			&:hover {
+				cursor: pointer;
+			}
+		}
+
+		// &__button {
+		// 	background-color: #25a02b;
+		// 	font-weight: 500;
+		// 	font-size: 1.6rem;
+		// 	padding: 0.8rem 1.3rem;
+		// 	height: auto;
+		// 	border: none !important;
+		// 	&:hover {
+		// 		background-color: #25a02b !important;
+		// 		border: none !important;
+		// 	}
+		// }
+	}
+}

@@ -1,0 +1,69 @@
+.log-sheet {
+	&__wrapper {
+		height: 76px;
+		background-color: #fff;
+		padding: 2.6rem 3rem 10px 2rem;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+		border-bottom: 1px solid #d4d7dc;
+	}
+	&__left {
+		display: flex;
+		gap: 28px;
+		&--btn-time-log {
+			cursor: pointer;
+			border: none;
+			background: none;
+			color: #344735;
+			font-size: 1.8rem;
+			font-weight: 500;
+			position: relative;
+		}
+	}
+	&__right {
+		display: flex;
+		align-items: center;
+		gap: 2rem;
+		&--hours-over {
+			display: flex;
+			align-items: center;
+			gap: 9px;
+			& > label {
+				color: #27272e;
+				font-size: 16px;
+			}
+		}
+		&--add-time-log {
+		}
+	}
+}
+
+.time_logs_after {
+	&::after {
+		content: '';
+		position: absolute;
+		height: 5px;
+		color: #344735;
+		background: #344735;
+		left: 18px;
+		bottom: 0;
+		width: 81px;
+	}
+}
+
+.time_sheet_after {
+	&::after {
+		content: '';
+		position: absolute;
+		height: 5px;
+		color: #344735;
+		background: #344735;
+		left: 128px;
+		bottom: 0;
+		width: 95px;
+	}
+}

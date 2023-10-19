@@ -1,0 +1,20 @@
+.ant-radio {
+	height: 3rem !important;
+	width: 3rem !important;
+}
+
+.ant-radio-inner {
+	height: 100% !important;
+	width: 100% !important;
+	border: 2px solid #d6dad7 !important;
+	background-color: #fff !important;
+}
+
+.ant-radio-inner::after {
+	background-color: #344735 !important;
+	min-height: 16px !important;
+	min-width: 16px !important;
+	transform: scale(1) !important;
+	inset-block-start: 50% !important;
+	inset-inline-start: 51% !important;
+}

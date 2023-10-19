@@ -1,0 +1,21 @@
+.calculator_modal {
+	&__body {
+		padding: 2.2rem 3.2rem !important;
+		padding-bottom: 1.5rem !important;
+		&-line {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 2rem !important;
+		}
+		&-final {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 1.8rem !important;
+			color: #841cff !important;
+		}
+	}
+}
+
+.popup-input {
+	width: 100px !important;
+}

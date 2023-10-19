@@ -1,0 +1,67 @@
+.account-settings {
+	&__wrapper {
+		border: 1px solid #d4d7dc;
+		border-radius: 10px;
+	}
+	&__top {
+		height: 89.44px;
+		display: flex;
+		align-items: center;
+		border-bottom: 1px solid #d4d7dc;
+		&--title {
+			font-size: 2rem;
+			font-weight: 500;
+			padding: 2.4rem;
+		}
+	}
+	&__center {
+		padding: 4rem 2.4rem 0px 2.4rem;
+		&--expense {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 1rem;
+			margin-bottom: 4.3rem;
+			&--label {
+				font-size: 1.6rem;
+				font-weight: 500;
+				max-width: 40%;
+				font-family: 'Lexend' !important;
+				width: 100%;
+			}
+			&--input {
+				max-width: 60% !important;
+				width: 100% !important;
+			}
+		}
+	}
+	&__bottom {
+		padding: 0 2.4rem 8rem 2.4rem;
+		&--title {
+			& > p {
+				font-weight: 500;
+				font-size: 1.6rem;
+				margin-bottom: 3.2rem;
+			}
+		}
+		&--select {
+			display: flex;
+			align-items: center;
+			gap: 15px;
+			margin-bottom: 2.6rem;
+			& > p {
+				width: 40%;
+				font-size: 1.6rem;
+				font-weight: 500;
+			}
+			& > div {
+				width: 60%;
+				label {
+					font-size: 1.6rem;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+}

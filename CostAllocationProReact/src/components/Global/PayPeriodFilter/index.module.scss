@@ -1,0 +1,56 @@
+.search-filter-main-pay-period {
+	display: flex;
+	align-items: center;
+}
+
+.payPeriod-display {
+	border: 1px solid #d9d9d9;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.gray {
+	color: #d9d9d9;
+}
+
+.search-filter-main {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center !important;
+
+	&-pay-period {
+		display: flex;
+		margin-right: 1.2rem;
+	}
+
+	&-prev {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 1.4rem;
+		gap: 0.7rem;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	&-next {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 1.4rem;
+		gap: 0.7rem;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
+
+.pay-period-filter {
+	width: 250px !important;
+}

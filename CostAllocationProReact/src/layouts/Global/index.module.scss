@@ -1,0 +1,15 @@
+.global-layout {
+	height: 100vh;
+
+	&__body {
+		display: flex;
+		height: calc(100vh - 70px);
+		&--body {
+			width: 100%;
+			background: #f8f1e9;
+			padding: 2.1rem 3rem 3.6rem 3rem;
+			position: relative !important;
+			width: calc(100vw - 200px) !important;
+		}
+	}
+}

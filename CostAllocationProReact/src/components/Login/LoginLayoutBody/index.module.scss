@@ -1,0 +1,55 @@
+@import '../../../scss/mixin.scss';
+
+.login-body {
+	&__wrapper {
+	}
+	&__top {
+		&--title {
+			font-weight: 700;
+			font-size: 3.4rem;
+			margin-bottom: 3.2rem;
+			@include mq('desktop') {
+				margin-bottom: 2.2rem;
+			}
+		}
+		&--description {
+			& > p {
+				font-size: 17px;
+				color: #425465;
+				margin-bottom: 5.4rem;
+				@include mq('desktop') {
+					margin-bottom: 3.3rem;
+				}
+			}
+		}
+	}
+	&__center {
+	}
+	&__forgot-password {
+		display: flex;
+		justify-content: left;
+		font-size: 14px;
+		margin-bottom: 2.5rem;
+		font-weight: 500;
+		color: #344735;
+		border-bottom: 1px solid #344735;
+		display: flex;
+		justify-content: flex-end;
+		width: max-content;
+		margin-left: auto;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	&__end {
+		&--button {
+			width: 100%;
+			font-size: 2rem !important;
+			background: #000;
+			height: 5.4rem !important;
+			&:hover {
+				background: #000 !important;
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+.dynamic-table {
+	overflow: auto;
+	background-color: #fff !important;
+	border-radius: 10px;
+
+	&__pagination {
+		justify-content: center !important;
+		.ant-pagination-item {
+			border-radius: 50%;
+		}
+		.ant-pagination-item-active {
+			border-color: #000;
+			background-color: #000;
+			&:hover {
+				border: none !important;
+				border-width: 0px !important;
+			}
+			a {
+				color: #fff !important;
+			}
+		}
+	}
+	.table-edit-icon,
+	.table-delete-icon {
+		cursor: pointer;
+	}
+}
+
+.pay-period-column {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6rem;
+	.date {
+		display: flex;
+		gap: 1rem;
+	}
+	.section-time {
+		display: flex;
+		gap: 1rem;
+	}
+	.section-journal {
+		display: flex;
+		gap: 1rem;
+	}
+}
+.dynamic-table {
+	.table-global {
+		.ant-picker-large.range-picker.err-range-picker {
+			border: 1px solid red !important;
+		}
+		.err-range-picker {
+			.ant-picker-active-bar {
+				background-color: red !important;
+			}
+		}
+	}
+}
+
+.employee-cost-pay-period {
+	color: #5f45d2;
+	cursor: pointer;
+}

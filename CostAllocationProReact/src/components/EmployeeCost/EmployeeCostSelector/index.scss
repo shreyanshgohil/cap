@@ -1,0 +1,22 @@
+.check-box-black {
+	&:hover {
+		.ant-checkbox-checked {
+			.ant-checkbox-inner {
+				border: none !important;
+				background: #333333 !important;
+				&:hover {
+					background: #333333 !important;
+				}
+			}
+		}
+	}
+	.ant-checkbox-checked {
+		.ant-checkbox-inner {
+			border: none !important;
+			background: #333333 !important;
+			&:hover {
+				background: #333333 !important;
+			}
+		}
+	}
+}

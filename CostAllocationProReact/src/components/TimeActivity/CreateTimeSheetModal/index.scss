@@ -1,0 +1,90 @@
+// .ant-modal-content {
+// 	padding: 0px 0px !important;
+// }
+.time-sheet-modal__body {
+	// padding: 3.8rem 4.2rem 2.05rem 3.6rem !important;
+	padding: 1rem 3rem !important;
+	color: #27272e !important;
+	font-weight: 500;
+
+	.fields {
+		padding: 1rem !important;
+	}
+	.ant-select {
+		width: 100% !important;
+	}
+	.ant-select-selector {
+		line-height: normal;
+	}
+}
+
+.time_sheet_modal_footer {
+	padding: 2rem 3rem !important;
+
+	.save {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #000;
+		font-size: 1.6rem;
+		color: #fff;
+		font-weight: 600;
+		border-radius: 1000px !important;
+		border: none;
+		cursor: pointer;
+		min-height: 5.2rem;
+
+		&:hover {
+			color: #fff !important;
+			background: #000 !important;
+		}
+	}
+
+	.cancel {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #fff;
+		border: 2px solid #e3e4e7;
+		box-shadow: none;
+		font-size: 1.6rem;
+		color: #a2a7ad;
+		font-weight: 600;
+		border-radius: 1000px !important;
+		cursor: pointer;
+		width: 13rem;
+		min-height: 5.2rem;
+
+		&:hover {
+			border-color: #e3e4e7 !important;
+			background: #fff !important;
+			color: #a2a7ad !important;
+		}
+	}
+}
+
+hr {
+	height: 1px;
+	background-color: #ccc;
+	border: none;
+}
+.ant-modal-close {
+	margin-top: 2rem;
+	margin-right: 2.1rem;
+}
+
+.userDetailsTitle {
+	margin-left: -0.4rem;
+	font-size: 2rem !important;
+}
+
+.register-form-label {
+	margin-bottom: 10px;
+	display: block;
+}
+
+.profile__popup {
+	.ant-modal-content {
+		padding: 0 !important;
+	}
+}

@@ -1,0 +1,111 @@
+.modal-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&__image {
+		width: 12.2rem !important;
+		height: 12.2rem !important;
+		margin-bottom: 3rem;
+	}
+
+	&__image_reconnect {
+		max-width: 36rem !important;
+		height: 6rem !important;
+		margin-bottom: 3rem;
+	}
+
+	&__text {
+		font-weight: 500;
+		font-size: 2.5rem;
+		margin-bottom: 2.4rem;
+		line-height: 3.5rem;
+	}
+
+	&__buttons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 2rem;
+		padding-left: 3.336rem;
+		padding-right: 3.336rem;
+
+		&--btn {
+			border: none;
+			font-size: 1.8rem;
+			padding: 1.8rem 4rem;
+			border-radius: 5000px;
+			cursor: pointer;
+			font-weight: 600;
+		}
+
+		&--disconnect {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: #e74032;
+			font-size: 1.6rem;
+			color: #fff;
+			font-weight: 600;
+			border-radius: 1000px !important;
+			border: none;
+			cursor: pointer;
+			padding: 1.5rem 3rem;
+			height: 4.5rem;
+			width: 15rem !important;
+
+			&:hover {
+				background: #e74032 !important;
+			}
+		}
+
+		&--connect {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: #05ad32;
+			font-size: 1.6rem;
+			color: #fff;
+			font-weight: 600;
+			border-radius: 1000px !important;
+			border: none;
+			cursor: pointer;
+			padding: 1.5rem 3rem;
+			height: 4.5rem;
+			width: 15rem !important;
+
+			&:hover {
+				background: #05ad32 !important;
+			}
+		}
+
+		&--cancel {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: #fff;
+			border: 2px solid #e3e4e7;
+			box-shadow: none;
+			font-size: 1.6rem;
+			color: #a2a7ad;
+			font-weight: 600;
+			border-radius: 1000px !important;
+			cursor: pointer;
+			padding: 1.5rem 3rem;
+			width: 15rem !important;
+			height: 4.5rem;
+
+			&:hover {
+				background: #fff !important;
+				color: #a2a7ad !important;
+			}
+		}
+	}
+}
+
+.integration__card__button {
+	&:hover {
+		cursor: pointer;
+	}
+}

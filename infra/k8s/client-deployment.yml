@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client-deployment
+  annotations:
+    proxy-websocket: "true"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: web
+  template:
+    metadata:
+      labels:
+        component: web
+    spec:
+      containers:
+        - name: client
+          image: shreyanshgohil2510/capfront
+          ports:
+            - containerPort: 3000
+          env:
+            - name: REACT_APP_API_ENDPOINT
+              value: https://satva-react.com/api
+            - name: REACT_APP_AWS_BASE_URL
+              value: https://costallocationspro.s3.us-east-1.amazonaws.com
+            - name: WDS_SOCKET_PORT
+              value: '0'

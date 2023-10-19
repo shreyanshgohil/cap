@@ -1,0 +1,80 @@
+.main-container {
+	&__title {
+		font-weight: 600;
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
+}
+
+.connection-table {
+	&__logo {
+		height: 3.6rem;
+		width: 18.658rem;
+	}
+
+	&__action {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+		font-weight: 600;
+
+		& > a {
+			text-decoration: none !important;
+			color: black;
+		}
+
+		:hover {
+			cursor: pointer;
+		}
+	}
+
+	&__company {
+		&-title {
+			font-weight: 600;
+			font-size: 1.6rem;
+			line-height: 2rem;
+			margin-bottom: 0.6rem;
+		}
+		&-year {
+			font-weight: 400;
+			font-size: 1rem;
+			line-height: 1.25rem;
+			color: #666666;
+		}
+		&-currency {
+			font-weight: 400;
+			font-size: 1rem;
+			line-height: 1.25rem;
+			color: #666666;
+		}
+	}
+
+	&__connection-id {
+		font-weight: 600 !important;
+	}
+
+	&__last-sync {
+		font-weight: 600 !important;
+	}
+
+	::-webkit-scrollbar {
+		width: 100% !important;
+		height: 15px !important;
+		display: block !important;
+		overflow: auto !important;
+		overflow-y: hidden !important;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: #b0b0b0 !important;
+	}
+
+	::-webkit-scrollbar-track {
+		background: #e0e0e0 !important;
+	}
+
+	::-webkit-scrollbar-corner {
+		background: transparent !important; /* Change this to the background color of the scrollbar corner */
+	}
+}

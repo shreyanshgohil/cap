@@ -1,0 +1,17 @@
+.search-filter {
+	&__wrapper {
+		padding: 2rem;
+	}
+	&__search {
+		width: 200px !important;
+	}
+	&__filter {
+		width: 150px !important;
+	}
+}
+
+.pay-period-filter {
+	width: 200px !important;
+	margin-left: 20px;
+	margin-right: 20px;
+}

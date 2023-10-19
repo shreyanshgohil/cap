@@ -1,0 +1,36 @@
+.time-sheet-modal__body .ant-btn:hover {
+	border-color: black !important;
+	color: black !important;
+}
+
+.time_sheet_modal_footer .ant-btn:hover {
+	border-color: black !important;
+	color: white !important;
+}
+
+.time-sheet-modal__body {
+	padding: 1rem 2rem !important;
+}
+
+.employee-list-modal {
+	&:hover {
+		.ant-checkbox-checked {
+			.ant-checkbox-inner {
+				border: none !important;
+				background: #333333 !important;
+				&:hover {
+					background: #333333 !important;
+				}
+			}
+		}
+	}
+	.ant-checkbox-checked {
+		.ant-checkbox-inner {
+			border: none !important;
+			background: #333333 !important;
+			&:hover {
+				background: #333333 !important;
+			}
+		}
+	}
+}

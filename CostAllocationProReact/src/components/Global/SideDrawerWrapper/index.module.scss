@@ -1,0 +1,61 @@
+@import '../../../scss/keyframe.scss';
+@import '../../../scss/mixin.scss';
+
+.side-drawer {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background: white;
+	max-width: 500px;
+	z-index: 150;
+	&.full {
+		max-width: 100vw;
+	}
+	&.half {
+		max-width: 80rem;
+	}
+	&.slide-in {
+		animation: SlideIn 0.5s forwards;
+	}
+	&.slide-out {
+		animation: SlideOut 0.5s forwards;
+	}
+	&.slide-top {
+		animation: SlideTop 0.5s forwards;
+	}
+	&.slide-bottom {
+		animation: SlideBottom 0.5s forwards;
+	}
+	&__header {
+		// box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+		padding: 2rem 3.636rem;
+		@include mq('mid-desktop') {
+			padding: 20px 3.636rem;
+		}
+		&--heading {
+			font-size: 2.4rem;
+			font-weight: 700;
+		}
+		&--close-icon {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	&__body {
+		height: calc(100% - 6.3rem);
+	}
+}
+
+.side-drawer__backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+}

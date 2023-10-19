@@ -1,0 +1,100 @@
+.ant-table-header {
+	border-radius: 0px !important;
+}
+
+// .ant-input-number {
+// 	width: 8rem !important;
+// }
+
+.employee-const-column-title {
+	display: flex;
+	gap: 8px;
+
+	svg {
+		min-width: 16px;
+		height: 16px;
+	}
+
+	p {
+		&:first-child {
+			line-height: 2.3 !important;
+		}
+
+		line-height: 22px;
+	}
+}
+
+.width-130 {
+	width: 130px !important;
+}
+
+.width-90 {
+	width: 90px !important;
+}
+
+.last-column {
+	border-right: 1px dashed #c2c2c2 !important;
+}
+
+.employee-cost {
+	td.cell-fff {
+		background-color: #fff !important;
+	}
+
+	td.cell-f2f2f2 {
+		background-color: #f2f2f2 !important;
+	}
+
+	td.cell-e7eff8 {
+		background-color: #e7eff8 !important;
+	}
+
+	td.cell-f3ede7 {
+		background-color: #f3ede7 !important;
+	}
+
+	.ant-table-footer {
+		background-color: #fff;
+	}
+}
+
+.employee-cost-footer {
+	color: #27272e;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.employee-cost {
+	::-webkit-scrollbar {
+		width: 100% !important;
+		height: 15px !important;
+		display: block !important;
+		overflow: auto !important;
+		overflow-y: hidden !important;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: #b0b0b0 !important;
+	}
+
+	::-webkit-scrollbar-track {
+		background: #e0e0e0 !important;
+	}
+
+	::-webkit-scrollbar-corner {
+		background: transparent !important;
+		/* Change this to the background color of the scrollbar corner */
+	}
+}
+
+.employee-cost-row {
+	position: sticky;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	outline: auto;
+}
+
+.employee-cost-row h4 {
+	padding-left: 11px;
+}

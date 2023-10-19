@@ -1,0 +1,50 @@
+.buttons {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	&__btn {
+		border: none;
+		font-size: 1.8rem;
+		border-radius: 5000px;
+		cursor: pointer;
+		font-weight: 600;
+	}
+	&__btn--save {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #000;
+		font-size: 1.6rem;
+		color: #fff;
+		font-weight: 600;
+		border-radius: 1000px !important;
+		border: none;
+		cursor: pointer;
+		width: 13rem;
+		min-height: 5.2rem;
+
+		&:hover {
+			color: #fff !important;
+			background: #000 !important;
+		}
+	}
+	&__btn--cancel {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: #fff;
+		border: 2px solid #e3e4e7;
+		box-shadow: none;
+		font-size: 1.6rem;
+		color: #a2a7ad;
+		font-weight: 600;
+		border-radius: 1000px !important;
+		cursor: pointer;
+		width: 13rem;
+		min-height: 5.2rem;
+		&:hover {
+			background: #fff !important;
+			color: #a2a7ad !important;
+		}
+	}
+}

@@ -1,0 +1,12 @@
+.configuration {
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__title {
+		font-size: 2.2rem;
+		font-weight: 500;
+	}
+	margin-bottom: 3.5rem;
+}

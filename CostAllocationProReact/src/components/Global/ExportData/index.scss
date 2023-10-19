@@ -1,0 +1,18 @@
+.export-select {
+	background-color: red !important;
+	background: none !important;
+	border: none !important;
+	width: 110px !important;
+	.ant-select-selector {
+		border: none !important;
+	}
+	.ant-select-selection-placeholder {
+		color: #263238;
+		font-size: 1.6rem;
+		font-weight: 400;
+	}
+}
+
+.export-select .ant-select-selector {
+	padding: 0rem 1rem !important;
+}

@@ -1,0 +1,35 @@
+.dynamic-table {
+	overflow: auto;
+	background-color: #fff !important;
+	border-radius: 10px;
+	&__permissions {
+		margin-left: 0.981rem;
+		color: #153fcd !important;
+		font-size: 1.6rem !important;
+		line-height: 2rem !important;
+		font-weight: 600 !important;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	&__granted-permission {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 1rem;
+		&--text {
+			font-size: 1.6rem;
+			color: #009049;
+			font-weight: 500;
+		}
+	}
+	&__status {
+		display: flex;
+		align-items: center;
+		color: #009049;
+		gap: 0.836rem;
+		font-size: 1.6rem !important;
+		line-height: 2rem !important;
+		font-weight: 600 !important;
+	}
+}

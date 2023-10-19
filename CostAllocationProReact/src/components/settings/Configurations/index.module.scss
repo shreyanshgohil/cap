@@ -1,0 +1,30 @@
+@import '../../../scss/mixin.scss';
+.configuration {
+	&__wrapper {
+		background: #ffff;
+		padding: 3.6rem 3rem 5.2rem 3rem;
+		border-radius: 10px;
+		height: calc(100vh - 160px);
+		overflow: scroll;
+	}
+	&__settings {
+		display: flex;
+
+		gap: 3rem;
+		&--configuration {
+			flex-basis: 62%;
+			@include mq('mid-desktop') {
+				flex-basis: 60%;
+			}
+			.buttons-wrapper {
+				padding: 4rem 2rem;
+			}
+		}
+		&--allocation {
+			flex-basis: 38%;
+			@include mq('mid-desktop') {
+				flex-basis: 40%;
+			}
+		}
+	}
+}

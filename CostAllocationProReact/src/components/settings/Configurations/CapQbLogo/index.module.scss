@@ -1,0 +1,24 @@
+.cap-qb {
+	margin-bottom: 2.4rem;
+	display: flex;
+	align-items: flex-end;
+	border: 1px solid #d4d7dc;
+	padding: 25px;
+	border-radius: 10px;
+	background: #f5f6f5;
+	flex-direction: column;
+	&__wrapper {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+	&__cap-logo {
+		width: 20rem;
+	}
+	&__qb-logo {
+		width: 20rem;
+	}
+	&__main_wrapper {
+		width: 100%;
+	}
+}

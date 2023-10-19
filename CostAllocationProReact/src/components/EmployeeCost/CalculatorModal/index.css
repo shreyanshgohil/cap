@@ -1,0 +1,31 @@
+.ant-modal-content {
+	padding: 3rem 0rem !important;
+}
+
+.ant-modal-header {
+	padding-bottom: 2rem !important;
+	padding-left: 3rem !important;
+	padding-right: 3rem !important;
+}
+
+.ant-modal-title {
+	font-weight: 600;
+	font-size: 2.4rem !important;
+}
+
+.ant-modal-footer {
+	padding-top: 1.5rem !important;
+	padding-left: 3rem !important;
+	padding-right: 3rem !important;
+}
+
+.calculator-input {
+	max-height: 2.7rem !important;
+	display: flex;
+	align-items: center;
+}
+
+.calculator-input > .ant-input-number {
+	width: 6rem !important;
+	margin-left: 1rem;
+}

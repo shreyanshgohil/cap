@@ -1,0 +1,13 @@
+Step 1 create docker and docker.dev file 
+Step 2 create .dockerignore file
+Step 3 create deployment and service file
+Step 4 create ingress-service file 
+
+Step 5 setup Dashboard 
+  Step 1 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
+  Step 2 kubectl proxy 
+  step 3 kubectl -n kubernetes-dashboard create token admin-user
+  step 4 copy url in chrome http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/workloads?namespace=default
+
+step 6 setup local development with scaffold
+

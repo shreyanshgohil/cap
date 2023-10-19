@@ -1,0 +1,66 @@
+.range-picker {
+	// background-color: red !important;
+	border: 1px solid #d9d9d9 !important;
+	box-shadow: none !important;
+	.ant-picker-active-bar {
+		background-color: #d9d9d9 !important;
+	}
+}
+.ant-picker-cell-selected {
+	.ant-picker-cell-inner {
+		background-color: #27272e !important;
+	}
+}
+
+.ant-picker-cell-range-start-single {
+	.ant-picker-cell-inner {
+		background-color: #27272e !important;
+	}
+}
+.ant-picker-cell-range-start {
+	.ant-picker-cell-inner {
+		background-color: #27272e !important;
+	}
+}
+.ant-picker-cell-range-end {
+	.ant-picker-cell-inner {
+		background-color: #27272e !important;
+	}
+}
+.ant-picker-cell-inner {
+	&::before {
+		border: 1px solid #27272e !important;
+	}
+}
+.ant-picker-cell-in-range {
+	&::before {
+		// background: #d4d7dc !important;
+	}
+}
+// .ant-picker-cell-in-range-hover {
+// 	background: red !important;
+// }
+.ant-picker-cell-in-view.ant-picker-cell-range-start:not(
+		.ant-picker-cell-range-start-single
+	)::before,
+.ant-picker-cell-in-view.ant-picker-cell-in-range::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-end:not(
+		.ant-picker-cell-range-end-single
+	)::before,
+.ant-picker-time-panel-column
+	> li.ant-picker-time-panel-cell-selected
+	.ant-picker-time-panel-cell-inner {
+	background: #d4d7dc !important;
+}
+
+.ant-picker-range-hover-start {
+	&::after {
+		background: #bfbfc0 !important;
+	}
+}
+
+.ant-picker-cell-inner {
+	&::after {
+		background: #bfbfc0 !important;
+	}
+}

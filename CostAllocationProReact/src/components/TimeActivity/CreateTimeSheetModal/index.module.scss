@@ -1,0 +1,47 @@
+.time-sheet-modal__header {
+	padding: 1.1rem 3rem !important;
+	display: flex;
+	gap: 1.1rem;
+	align-items: center;
+	width: 100%;
+	min-height: 9.6rem !important;
+	justify-content: space-between;
+
+	&--left {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 2.7rem;
+	}
+
+	&--avatar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 7rem;
+		height: 7rem;
+		img {
+			width: 7rem;
+			height: 7rem;
+			border-radius: 3.4rem;
+			object-fit: cover !important;
+			object-position: top !important;
+		}
+	}
+	&--upload {
+		button {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		&--text {
+			color: #999999;
+		}
+	}
+	&-delete {
+		border: none !important;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
